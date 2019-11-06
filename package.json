@@ -1,0 +1,25 @@
+{
+  "name": "package.json",
+  "version": "0.0.1",
+  "description": "Static node and Express Site - A portfolio of my techdegree thus far",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marie-Ehrman/Techdegree-Project-6.git"
+  },
+  "author": "Marie Ehrman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marie-Ehrman/Techdegree-Project-6/issues"
+  },
+  "homepage": "https://github.com/Marie-Ehrman/Techdegree-Project-6#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.4",
+    "path": "^0.12.7",
+    "pug": "^2.0.4"
+  }
+}
