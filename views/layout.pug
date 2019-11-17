@@ -6,23 +6,24 @@ html(class="no-js" lang="en" dir="ltr")
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     title Portfolio Site
     link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
-    link(rel='stylesheet', href='/static/css/foundation.css')
-    link(rel='stylesheet', href='/static/css/style.css')
+    link(rel='stylesheet', href='css/foundation.css')
+    link(rel='stylesheet', href='css/style.css')
   body
     #my-info.off-canvas.position-left.reveal-for-large.portfolio-me(data-off-canvas='')
       .grid-y.grid-padding-x(style='height: 100%;')
         block sidebar
           br
           .cell.shrink
-            img.thumbnail(src='https://placehold.it/550x350')
+            img.thumbnail(src="img/headshot.png" width="250" height="250")
           .cell.auto
 
             //- Add your name here.
-            h5 Marie
+            h5 Marie Ehrman 
+            h6.text-light She/Her
 
             //- Add text here to describe who you are, what you do, and why you are so awesome.
             p.text-light
-              | Earning a PhD in life, one moment at a time. I am a mother to 1 Anatolian Shepherd, 2 Black Cats, and LOTS of plants!
+              | Treehouse student working toward a career in web development
 
             //- Add about page route to the href below. 
             a(href='./about') Learn More →
@@ -33,12 +34,12 @@ html(class="no-js" lang="en" dir="ltr")
           button.menu-icon(type='button', data-toggle='my-info')
 
           //- Add your name here.  This is for the mobile screen sized version.
-          span.title-bar-title Name
+          span.title-bar-title Marie Ehrman
       block content
         
 
       
-  script(src='/static/js/vendor/jquery.js')
-  script(src='/static/js/vendor/what-input.js')
-  script(src='/static/js/vendor/foundation.js')
-  script(src='/static/js/scripts.js')
+  script(src='js/vendor/jquery.js')
+  script(src='js/vendor/what-input.js')
+  script(src='js/vendor/foundation.js')
+  script(src='js/scripts.js')
