@@ -1,6 +1,6 @@
 extends layout.pug
 
 block content
-    h1= error.message
-    h2= error.status
+    h1= `${error.message} - Status: ${error.status}`
+    a.button-primary-small(href='/') Back
     pre= error.stack
