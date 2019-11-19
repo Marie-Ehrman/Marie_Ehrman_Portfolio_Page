@@ -1,18 +1,22 @@
 //Add variables to require the necessary dependencies.
 const express = require('express');
+const path = require('path');
 const app = express();
 //grab data from data.json file
 const { projects } = require('./data.json');
 
+//set up static route
+app.use(express.static(path.join(__dirname, 'public')));
+// app.use('views', path.join(__dirname, 'views'));
+// app.use(express.static('public'));
 //set your “view engine” to “pug”
 app.set('view engine', 'pug');
 
-//set up static route
-app.use(express.static('public'));
 
 
 
-//****ROUTES****//
+
+                //****ROUTES****//
 
 /***** INDEX ROUTE *****/
 app.get('/', (req, res, next) => {
@@ -25,14 +29,16 @@ app.get('/about', (req, res, next) => {
 });
 
 /***** PROJECT ROUTE *****/
-//Dynamic "project" routes (/project or /projects) based on the id of the project that render a 
+//Dynamic "project" routes based on the id of the project that render a 
 //customized version of the Pug project template to show off each project. Which means adding data, or "locals", as an object that contains data to be passed to the Pug template
-app.get('/project/:id', (req, res, next) => {
+app.get('/projects/:id', (req, res, next) => {
+    
     //stores the id with a route parameter
     const projectId = req.params.id;
     //holds the recipe object to pass to the view
     const project = projects.find( ({ id }) => id === +projectId );
-    
+    console.log(project);
+
     if (project) {
       res.render('project', { project });
     } else {
