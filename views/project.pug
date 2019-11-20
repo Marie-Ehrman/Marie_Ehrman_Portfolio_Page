@@ -2,13 +2,15 @@ extends layout.pug
 
 block content 
   nav.grid-container.portfolio-breadcrumb
-    a(href='/') ← Back
+    a(href='/') ← Home
   article.grid-container.portfolio-intro.portfolio-project
     .grid-x
       .cell.small-6.medium-9.large-9
-
-        //- Use interpolation to dynamically add the project title.
-        h1= project.project_name
+        
+        //- Dynamically add the project title, but use anchor tag so title can 
+            be clicked on as well
+        a(href=`${project.live_link}` target="_blank")
+          h1 #{project.project_name}
 
         //- Use interpolation to dynamically add the project description.
         p.lead.text-light
