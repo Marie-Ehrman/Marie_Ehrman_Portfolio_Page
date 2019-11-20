@@ -148,3 +148,9 @@ a:hover{
 .portfolio-bio{
     line-height: 25px;
 }
+
+/*********** Personalized Styling ************/
+
+body {
+  background-color: rgb(167, 231, 233);
+}
