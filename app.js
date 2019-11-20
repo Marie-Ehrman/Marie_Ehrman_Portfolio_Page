@@ -1,22 +1,18 @@
-//Add variables to require the necessary dependencies.
+//Variables to require the necessary dependencies.
 const express = require('express');
 const path = require('path');
 const app = express();
-//grab data from data.json file
+
+//grab data from data.json file and set it to the projects object
 const { projects } = require('./data.json');
 
-//set up static route
-app.use(express.static(path.join(__dirname, 'public')));
-// app.use('views', path.join(__dirname, 'views'));
-// app.use(express.static('public'));
-//set your “view engine” to “pug”
+//set up Static Route to serve 'public' folder
+app.use('/static', express.static(path.join(__dirname, 'public')));
+
+//set “view engine” to “pug”
 app.set('view engine', 'pug');
 
-
-
-
-
-                //****ROUTES****//
+    //**************ROUTES*****************//
 
 /***** INDEX ROUTE *****/
 app.get('/', (req, res, next) => {
@@ -37,7 +33,8 @@ app.get('/projects/:id', (req, res, next) => {
     const projectId = req.params.id;
     //holds the recipe object to pass to the view
     const project = projects.find( ({ id }) => id === +projectId );
-    console.log(project);
+    //redirect to about page, if Learn More is clicked in projects?
+
 
     if (project) {
       res.render('project', { project });
@@ -45,9 +42,6 @@ app.get('/projects/:id', (req, res, next) => {
       res.sendStatus(404);
     }
 });
-
-
-
 
 /**** ERROR HANDLING ****/
 
