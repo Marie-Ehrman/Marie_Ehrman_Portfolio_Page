@@ -31,11 +31,13 @@ h1,h2,h3,h4,h5,p{
 }
 
 .button{
-  background-color: #333;
+  background-color: rgb(98, 105, 101);
+  border-radius: 5px;
+
 }
 
 .button:hover{
-  background-color: #111;
+  background-color: rgba(119, 116, 116, 0.589);
 }
 
 a{
@@ -43,7 +45,7 @@ a{
 }
 
 a:hover{
-  color: #111;
+  color: rgb(202, 193, 193);
 }
 
 .image{
@@ -58,14 +60,14 @@ a:hover{
 
 .portfolio-me{
   padding: 20px;
-  background: #121213;
+  background: #92929c;
   color: #fff;
   box-shadow: none !important;
 }
 
   .portfolio-me p{
     font-size: 14px;
-    color: #999;
+    color: rgb(56, 54, 54);
   }
 
   .portfolio-me a{
@@ -98,6 +100,7 @@ a:hover{
  }
 
 .portfolio-intro{
+  color: #3d3d41;
   margin: 0;
   padding: 40px 50px 30px;
 }
@@ -113,7 +116,9 @@ a:hover{
 }
 
   .portfolio-index .thumbnail{
-    margin-bottom: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 5px 8px #88888881;
   }
 
   .portfolio-index a{
@@ -152,5 +157,18 @@ a:hover{
 /*********** Personalized Styling ************/
 
 body {
-  background-color: rgb(167, 231, 233);
+  background-color: rgba(204, 244, 247, 0.623);
+}
+
+a.thumbnail:hover {
+  color: rgb(202, 193, 193);
+}
+
+.title-bar {
+  background-color: #92929c;
+  color: #3d3d41;
+}
+
+.portfolio-index .thumbnail:hover{
+  transform: translateX(20px);
 }
