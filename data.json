@@ -3,7 +3,7 @@
         {
             "id":  0,
             "project_name": "Random Quote Generator",
-            "description": "Random Quote Generator",
+            "description": "Displays a randomly selected quote",
             "technologies": ["JavaScript"],
             "live_link": "https://marie-ehrman.github.io/Techdegree-Project-1/",
             "github_link": "https://github.com/Marie-Ehrman/Techdegree-Project-1.git",
@@ -12,7 +12,7 @@
         {
             "id":  1,
             "project_name": "Student Directory",
-            "description": "Pagination and Filtering",
+            "description": "Pagination",
             "technologies": ["JavaScript"],
             "live_link": "https://marie-ehrman.github.io/Techdegree-Project-2/",
             "github_link": "https://github.com/Marie-Ehrman/Techdegree-Project-2.git",
@@ -20,17 +20,17 @@
         },
         {
             "id":  2,
-            "project_name": "Interactive Form",
-            "description": "FSJS Conference Registration Form",
-            "technologies": ["JavaScript", "jQuery"],
+            "project_name": "FSJS Conference Registration Form",
+            "description": "Interactive Form",
+            "technologies": ["JavaScript", "jQuery", "RegEx"],
             "live_link": "https://marie-ehrman.github.io/Techdegree-Project-3/",
             "github_link": "https://github.com/Marie-Ehrman/Techdegree-Project-3.git",
             "image_urls": ["img/unit_3/unit_3_landing.png", "img/unit_3/unit_3_1.png", "img/unit_3/unit_3_2.png", "img/unit_3/unit_3_3.png", "img/unit_3/unit_3_4.png"]
         },
         {
             "id":  3,
-            "project_name": "Phrase Hunter",
-            "description": "OOP Game Show App",
+            "project_name": "OOP Game Show App",
+            "description": "Phrase Hunter",
             "technologies": ["JavaScript", "jQuery"],
             "live_link": "https://marie-ehrman.github.io/Techdegree-Project-4/",
             "github_link": "https://github.com/Marie-Ehrman/Techdegree-Project-4.git",
@@ -40,7 +40,7 @@
             "id":  4,
             "project_name": "Employee Directory",
             "description": "Public API Requests",
-            "technologies": ["JavaScript", "jQuery"],
+            "technologies": ["JavaScript", "jQuery", "AJAX"],
             "live_link": "https://marie-ehrman.github.io/Techdegree-Project-5/",
             "github_link": "https://github.com/Marie-Ehrman/Techdegree-Project-5.git",
             "image_urls": ["img/unit_5/unit_5_landing.png", "img/unit_5/unit_5_1.png", "img/unit_5/unit_5_2.png", "img/unit_5/unit_5_3.png", "img/unit_5/unit_5_4.png"]
