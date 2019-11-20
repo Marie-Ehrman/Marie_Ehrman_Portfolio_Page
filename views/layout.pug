@@ -6,15 +6,15 @@ html(class="no-js" lang="en" dir="ltr")
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     title Portfolio Site
     link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
-    link(rel='stylesheet', href='css/foundation.css')
-    link(rel='stylesheet', href='css/style.css')
+    link(rel='stylesheet', href='/static/css/foundation.css')
+    link(rel='stylesheet', href='/static/css/style.css')
   body
     #my-info.off-canvas.position-left.reveal-for-large.portfolio-me(data-off-canvas='')
       .grid-y.grid-padding-x(style='height: 100%;')
         block sidebar
           br
           .cell.shrink
-            img.thumbnail(src="img/headshot.png" width="250" height="250")
+            img.thumbnail(src="/static/img/headshot.png" width="250" height="250")
           .cell.auto
 
             //- Add your name here.
@@ -23,10 +23,14 @@ html(class="no-js" lang="en" dir="ltr")
 
             //- Add text here to describe who you are, what you do, and why you are so awesome.
             p.text-light
-              | Treehouse Techdegree Student working toward a career in Web Development
+              | Treehouse Techdegree Student working toward a career in Web Development. 
+              | I currently work as a part-time office assistant at a Photography Software Co. called Fundy Software, Inc.
+              | I have three very sweet and adorable pets and many houseplants!
+              | When I am not working or studying, I enjoy spin class, playing video games, and watching soccer, GO THORNS!
 
-            //- Add about page route to the href below. 
-            a(href='./about') Learn More →
+            //- About route, directed to the parent directory so user can access about
+            //- even from the project route
+            a(href='../about') Learn More →
 
     .off-canvas-content(data-off-canvas-content='')
       .title-bar.hide-for-large
@@ -39,7 +43,7 @@ html(class="no-js" lang="en" dir="ltr")
         
 
       
-  script(src='js/vendor/jquery.js')
-  script(src='js/vendor/what-input.js')
-  script(src='js/vendor/foundation.js')
-  script(src='js/scripts.js')
+  script(src='/static/js/vendor/jquery.js')
+  script(src='/static/js/vendor/what-input.js')
+  script(src='/static/js/vendor/foundation.js')
+  script(src='/static/js/scripts.js')

@@ -1,6 +1,14 @@
 extends layout.pug
 
 block content
-    h1= `${error.message} - Status: ${error.status}`
-    a.button-primary-small(href='/') Back
+    br
+    a.button(href='/') ← "Just keep swimming" back to the Home Page
+    br
+    img(src="/static/img/DORY_404.jpg")
+    br
+    h1 uh oh, page not found
+    h3= `${error.message}` 
+    h5= `Status: ${error.status}`
+    br
+    br
     pre= error.stack
