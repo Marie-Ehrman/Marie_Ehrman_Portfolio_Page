@@ -22,5 +22,8 @@ Personalized Styling
 - border radius and shadow to project thumbnails
 
 Error Pug Template
-Nodemon added to package.json "starts". npm start from the terminal will serve the app
+- error page displays and allows user to return to index route
+
+Nodemon added to package.json "starts"
+- npm start from the terminal will serve the app
 
