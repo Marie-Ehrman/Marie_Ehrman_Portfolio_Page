@@ -45,7 +45,7 @@ app.get('/projects/:id', (req, res, next) => {
     } else {
     //if route doesn't exist pass status 404 to 404 middleware
       res.sendStatus(404);
-      console.log("Route does not exist");
+      console.error("Route does not exist");
     }
 });
 
@@ -54,7 +54,7 @@ app.get('/projects/:id', (req, res, next) => {
 
 //this handles a 404 not found error, it is placed here to catch other errors before the application ends
 app.use((req, res, next) => {
-    console.log("Route does not exist");
+    console.error("Route does not exist");
     const err = new Error("Not Found!");
     err.status = 404;
     next(err);
