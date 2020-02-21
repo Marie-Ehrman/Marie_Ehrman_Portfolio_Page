@@ -4,7 +4,7 @@
   "description": "Static node and Express Site - A portfolio of my techdegree thus far",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon",
+    "start": "npm start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
