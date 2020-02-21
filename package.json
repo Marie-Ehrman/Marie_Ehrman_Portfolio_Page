@@ -17,9 +17,9 @@
   "author": "Marie Ehrman",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Marie-Ehrman/Techdegree-Project-6/issues"
+    "url": "https://github.com/Marie-Ehrman/Marie_Ehrman_Portfolio_Page/issues"
   },
-  "homepage": "https://github.com/Marie-Ehrman/Techdegree-Project-6#readme",
+  "homepage": "https://github.com/Marie-Ehrman/Marie_Ehrman_Portfolio_Page.git",
   "dependencies": {
     "express": "^4.17.1",
     "nodemon": "^2.0.2",
@@ -27,6 +27,7 @@
     "pug": "^2.0.4"
   },
   "engines": {
-    "node": "12.12.0"
+    "node": "12.12.0",
+    "npm": "6.13.6"
   }
 }
