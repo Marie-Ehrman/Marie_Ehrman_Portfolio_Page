@@ -32,8 +32,8 @@
             "project_name": "OOP Game Show App",
             "description": "Phrase Hunter",
             "technologies": ["JavaScript", "jQuery"],
-            "live_link": "https://marie-ehrman.github.io/Techdegree-Project-4/",
-            "github_link": "https://github.com/Marie-Ehrman/Techdegree-Project-4.git",
+            "live_link": "https://marie-ehrman.github.io/Phrase_Hunter_OOP_Game/",
+            "github_link": "https://github.com/Marie-Ehrman/Phrase_Hunter_OOP_Game",
             "image_urls": ["img/unit_4/unit_4_landing.png", "img/unit_4/unit_4_1.png", "img/unit_4/unit_4_2.png", "img/unit_4/unit_4_3.png", "img/unit_4/unit_4_4.png"]
         },
         {
