@@ -4,7 +4,7 @@
   "description": "Static node and Express Site - A portfolio of my techdegree thus far",
   "main": "app.js",
   "scripts": {
-    "start": "npm start",
+    "start": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,7 +19,7 @@
   "homepage": "https://github.com/Marie-Ehrman/Techdegree-Project-6#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "nodemon": "^1.19.4",
+    "nodemon": "^2.0.2",
     "path": "^0.12.7",
     "pug": "^2.0.4"
   }
