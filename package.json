@@ -11,6 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/Marie-Ehrman/Techdegree-Project-6.git"
   },
+  "keywords": [
+    "heroku"
+  ],
   "author": "Marie Ehrman",
   "license": "ISC",
   "bugs": {
@@ -22,5 +25,8 @@
     "nodemon": "^2.0.2",
     "path": "^0.12.7",
     "pug": "^2.0.4"
+  },
+  "engines": {
+    "node": "12.12.0"
   }
 }
