@@ -34,6 +34,8 @@ build/Release
 
 # Dependency directories
 node_modules/
+npm-debug.log
+.DS_Store
 jspm_packages/
 
 # TypeScript v1 declaration files
@@ -55,7 +57,7 @@ typings/
 .yarn-integrity
 
 # dotenv environment variables file
-.env
+/*.env
 
 # next.js build output
 .next
