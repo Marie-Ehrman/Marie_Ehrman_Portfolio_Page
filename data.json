@@ -2,58 +2,59 @@
     "projects": [
         {
             "id":  0,
+            "project_name": "Flickr Image Gallery",
+            "description": "Flickr API Requests",
+            "technologies": ["React", "axios"],
+            "live_link": "https://flickr-gallery-react-app.herokuapp.com/",
+            "github_link": "https://github.com/Marie-Ehrman/Image_Gallery_React_App",
+            "image_urls": ["img/unit_7/unit_7.gif","img/unit_7/unit_7.gif"]
+        },
+        {
+            "id":  1,
             "project_name": "Random Quote Generator",
             "description": "Displays a randomly selected quote",
             "technologies": ["JavaScript"],
             "live_link": "https://marie-ehrman.github.io/Random_Quote_Generator/",
             "github_link": "https://github.com/Marie-Ehrman/Random_Quote_Generator",
-            "image_urls": ["img/unit_1/unit_1_landing.png", "img/unit_1/unit_1_1.png", "img/unit_1/unit_1_2.png", "img/unit_1/unit_1_3.png", "img/unit_1/unit_1_4.png"]
+            "image_urls": ["img/unit_1/unit_1.gif","img/unit_1/unit_1.gif"]
         },
         {
-            "id":  1,
+            "id":  2,
             "project_name": "Student Directory",
             "description": "Pagination",
             "technologies": ["JavaScript"],
             "live_link": "https://marie-ehrman.github.io/Pagination/",
             "github_link": "https://github.com/Marie-Ehrman/Pagination",
-            "image_urls": ["img/unit_2/unit_2_landing.png", "img/unit_2/unit_2_1.png", "img/unit_2/unit_2_2.png", "img/unit_2/unit_2_3.png", "img/unit_2/unit_2_4.png"]
+            "image_urls": ["img/unit_2/unit_2.gif","img/unit_2/unit_2.gif"]
         },
         {
-            "id":  2,
-            "project_name": "FSJS Conference Registration Form",
+            "id":  3,
+            "project_name": "Registration Form",
             "description": "Interactive Form",
             "technologies": ["JavaScript", "jQuery", "RegEx"],
             "live_link": "https://marie-ehrman.github.io/Interactive_Form/",
             "github_link": "https://github.com/Marie-Ehrman/Interactive_Form",
-            "image_urls": ["img/unit_3/unit_3_landing.png", "img/unit_3/unit_3_1.png", "img/unit_3/unit_3_2.png", "img/unit_3/unit_3_3.png", "img/unit_3/unit_3_4.png"]
+            "image_urls": ["img/unit_3/unit_3.gif","img/unit_3/unit_3.gif"]
         },
         {
-            "id":  3,
-            "project_name": "OOP Game Show App",
+            "id":  4,
+            "project_name": "OOP Game App",
             "description": "Phrase Hunter",
             "technologies": ["JavaScript", "jQuery"],
             "live_link": "https://marie-ehrman.github.io/Phrase_Hunter_OOP_Game/",
             "github_link": "https://github.com/Marie-Ehrman/Phrase_Hunter_OOP_Game",
-            "image_urls": ["img/unit_4/unit_4_landing.png", "img/unit_4/unit_4_1.png", "img/unit_4/unit_4_2.png", "img/unit_4/unit_4_3.png", "img/unit_4/unit_4_4.png"]
+            "image_urls": ["img/unit_4/unit_4.gif", "img/unit_4/unit_4.gif"]
         },
         {
-            "id":  4,
+            "id":  5,
             "project_name": "Employee Directory",
             "description": "Public API Requests - !randomuser.me currently down!",
             "technologies": ["JavaScript", "jQuery", "AJAX"],
             "live_link": "https://marie-ehrman.github.io/Employee_Directory_API_Requests/",
             "github_link": "https://github.com/Marie-Ehrman/Employee_Directory_API_Requests",
             "image_urls": ["img/unit_5/unit_5_landing.png", "img/unit_5/unit_5_1.png", "img/unit_5/unit_5_2.png", "img/unit_5/unit_5_3.png", "img/unit_5/unit_5_4.png"]
-        },
-        {
-            "id":  5,
-            "project_name": "Flickr Image Gallery",
-            "description": "Flickr API Requests",
-            "technologies": ["React", "axios"],
-            "live_link": "https://flickr-gallery-react-app.herokuapp.com/",
-            "github_link": "https://github.com/Marie-Ehrman/Image_Gallery_React_App",
-            "image_urls": ["img/unit_7/unit_7_landing.png", "img/unit_7/unit_7_1.png", "img/unit_7/unit_7_2.png", "img/unit_7/unit_7_3.png"]
         }
+
     ]
 
 }
