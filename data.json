@@ -39,7 +39,7 @@
         {
             "id":  4,
             "project_name": "Employee Directory",
-            "description": "Public API Requests",
+            "description": "Public API Requests - !randomuser.me currently down!",
             "technologies": ["JavaScript", "jQuery", "AJAX"],
             "live_link": "https://marie-ehrman.github.io/Employee_Directory_API_Requests/",
             "github_link": "https://github.com/Marie-Ehrman/Employee_Directory_API_Requests",
