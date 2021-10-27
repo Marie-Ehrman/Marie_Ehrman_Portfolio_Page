@@ -2,15 +2,24 @@
     "projects": [
         {
             "id":  0,
-            "project_name": "Flickr Image Gallery",
-            "description": "Flickr API Requests",
+            "project_name": "React Unit Conversion Tool",
+            "description": "I made this tool to help a team with unit conversions for daily commodities trading",
+            "technologies": ["React", "React Bootstrap", "axios"],
+            "live_link": "https://tyr-feed-price-converter.herokuapp.com/",
+            "github_link": "https://github.com/Marie-Ehrman/React_TYRFeed_price_converter",
+            "image_urls": ["img/price_converter/gif_1.gif","img/price_converter/gif_2.gif"]
+        },
+        {
+            "id":  1,
+            "project_name": "React Flickr Image Gallery",
+            "description": "A simple photo gallery application using the Flickr API",
             "technologies": ["React", "axios"],
             "live_link": "https://flickr-gallery-react-app.herokuapp.com/",
             "github_link": "https://github.com/Marie-Ehrman/Image_Gallery_React_App",
             "image_urls": ["img/unit_7/unit_7.gif","img/unit_7/unit_7.gif"]
         },
         {
-            "id":  1,
+            "id":  2,
             "project_name": "Random Quote Generator",
             "description": "Displays a randomly selected quote",
             "technologies": ["JavaScript"],
@@ -19,27 +28,18 @@
             "image_urls": ["img/unit_1/unit_1.gif","img/unit_1/unit_1.gif"]
         },
         {
-            "id":  2,
+            "id":  3,
             "project_name": "Student Directory",
-            "description": "Pagination",
+            "description": "Pagination practice and DOM manipulation",
             "technologies": ["JavaScript"],
             "live_link": "https://marie-ehrman.github.io/Pagination/",
             "github_link": "https://github.com/Marie-Ehrman/Pagination",
             "image_urls": ["img/unit_2/unit_2.gif","img/unit_2/unit_2.gif"]
         },
         {
-            "id":  3,
-            "project_name": "Registration Form",
-            "description": "Interactive Form",
-            "technologies": ["JavaScript", "jQuery", "RegEx"],
-            "live_link": "https://marie-ehrman.github.io/Interactive_Form/",
-            "github_link": "https://github.com/Marie-Ehrman/Interactive_Form",
-            "image_urls": ["img/unit_3/unit_3.gif","img/unit_3/unit_3.gif"]
-        },
-        {
             "id":  4,
             "project_name": "OOP Game App",
-            "description": "Phrase Hunter",
+            "description": "Guess a phrase in this interactive game",
             "technologies": ["JavaScript", "jQuery"],
             "live_link": "https://marie-ehrman.github.io/Phrase_Hunter_OOP_Game/",
             "github_link": "https://github.com/Marie-Ehrman/Phrase_Hunter_OOP_Game",
@@ -48,7 +48,7 @@
         {
             "id":  5,
             "project_name": "Employee Directory",
-            "description": "Public API Requests - !randomuser.me currently down!",
+            "description": "Fetches and Displays users dynamically with the Random User API",
             "technologies": ["JavaScript", "jQuery", "AJAX"],
             "live_link": "https://marie-ehrman.github.io/Employee_Directory_API_Requests/",
             "github_link": "https://github.com/Marie-Ehrman/Employee_Directory_API_Requests",

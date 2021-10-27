@@ -60,9 +60,10 @@ a:hover{
 
 .portfolio-me{
   padding: 20px;
-  background: #92929c;
+  background-image: linear-gradient(to right top, rgb(160, 212, 160), lightgrey, pink);
   color: #fff;
-  box-shadow: none !important;
+  box-shadow: 0 5px 0 0;
+
 }
 
   .portfolio-me p{
@@ -159,6 +160,10 @@ a:hover{
 body {
   background-color: rgba(204, 244, 247, 0.623);
 }
+.thumbnail:hover {
+  transform: scale(1.1) rotate(-5deg);
+}
+
 
 a.thumbnail:hover {
   color: rgb(202, 193, 193);
