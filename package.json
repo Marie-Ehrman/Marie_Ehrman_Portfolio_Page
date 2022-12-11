@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/Marie-Ehrman/Marie_Ehrman_Portfolio_Page.git",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "nodemon": "^2.0.2",
     "path": "^0.12.7",
     "pug": "^3.0.2"
